@@ -1,1 +1,1 @@
-# babel-polymer-minify-html
+# babel-plugin-polymer-html-minifier
