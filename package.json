@@ -1,0 +1,19 @@
+{
+  "name": "babel-plugin-polymer-minify-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aletorrado/babel-polymer-minify-html.git"
+  },
+  "author": "Alejandro Torrado <aletorrado@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aletorrado/babel-polymer-minify-html/issues"
+  },
+  "homepage": "https://github.com/aletorrado/babel-polymer-minify-html#readme",
+  "dependencies": {
+    "html-minifier": "^3.5.20"
+  }
+}
