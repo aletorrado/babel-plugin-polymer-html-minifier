@@ -1,5 +1,5 @@
 {
-  "name": "babel-plugin-polymer-minify-html",
+  "name": "@tadevel/babel-plugin-polymer-minify-html",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
