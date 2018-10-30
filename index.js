@@ -17,12 +17,10 @@ module.exports = function({ types: t }, options) {
 				if (options.tagNames.indexOf(path.node.tag.name) >= 0) {
 					const oldValue = path.node.quasi.quasis.map(x=>x.value.cooked).join(options.separator);
 					const newValue = htmlMinifier.minify(oldValue, options.htmlMinifier);
-					path.node.quasi.quasis = newValue.split(options.separator).map(x=>({
-						value: {
-							cooked: x,
-							raw: x,
-						},
-					}))
+					path.node.quasi.quasis = newValue.split(options.separator).map(x=>t.templateElement({
+						cooked: x,
+						raw: x,
+					}));
 				}
 			},
 		}
