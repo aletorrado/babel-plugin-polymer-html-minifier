@@ -3,7 +3,7 @@ const htmlMinifier = require('html-minifier');
 
 module.exports = function({ types: t }, options) {
 	options = Object.assign({
-		separator: '###babel-polymer-minify-html###',
+		separator: 'babel-polymer-minify-html:mockup',
 		tagNames: ['html'],
 		htmlMinifier: {
 			removeComments: true,
